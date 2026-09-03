@@ -1,0 +1,8 @@
+# Never publish anything from the job search itself.
+*.pdf
+*.docx
+*.doc
+*.xlsx
+jobs.json
+board.json
+.DS_Store

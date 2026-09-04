@@ -24,7 +24,7 @@ fi
 
 if [ -z "$(git config user.email)" ] && [ -z "$(git config --global user.email)" ]; then
   echo "Git needs to know who you are. Run these two lines once, then try again:"
-  echo '  git config --global user.name "Jenny Tsoi"'
+  echo '  git config --global user.name "Your Name"'
   echo '  git config --global user.email "your@email.com"'
   exit 1
 fi

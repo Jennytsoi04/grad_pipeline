@@ -6,3 +6,8 @@
 jobs.json
 board.json
 .DS_Store
+
+# seed.sql holds your own tracked jobs and private notes.
+# It is a one-time migration you run inside Supabase — it does not
+# belong on the public website.
+seed.sql
